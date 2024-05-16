@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/feed" element={<Feed />} />
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/*   <Route path="/feed" element={<Feed />} /> */}
       </Routes>
     </Router>
   );
